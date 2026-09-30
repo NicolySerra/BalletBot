@@ -1,57 +1,149 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Balle Bot</title>
-    <link rel="stylesheet" href="css/style.css">
 
+    <meta
+        name="description"
+        content="Balle Bot — mantenha sua comunidade segura de um jeito fácil."
+    >
+
+    <title>Balle Bot | Segurança para sua comunidade</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
     <header class="cabecalho">
-        <img class="cabecalho-img" src="css/Vector.svg" alt="logo da comunidade">
-        <div id="menu">
+
+        <a href="#inicio" aria-label="Voltar para o início">
+            <img
+                class="cabecalho-img"
+                src="css/Vector.svg"
+                alt="Logo da comunidade Balle Bot"
+            >
+        </a>
+
+        <nav id="menu" aria-label="Navegação principal">
             <ul>
-                <li><a class="menu-item" href="">Home</a></li>
-                <li><a class="menu-item" href="">Sobre Mim</a></li>
-                <li><a class="menu-item" href="">Comunidade</a></li>
-                <li><a class="menu-item" href="">Open Source</a></li>
-                <li><a class="menu-item" href="">Comando</a></li>
+                <li>
+                    <a class="menu-item" href="#inicio">Home</a>
+                </li>
+
+                <li>
+                    <a class="menu-item" href="#sobre">Sobre Mim</a>
+                </li>
+
+                <li>
+                    <a class="menu-item" href="#comunidade">Comunidade</a>
+                </li>
+
+                <li>
+                    <a class="menu-item" href="#opensource">Open Source</a>
+                </li>
+
+                <li>
+                    <a class="menu-item" href="#comandos">Comandos</a>
+                </li>
             </ul>
-        </div>
+        </nav>
 
     </header>
 
+
     <main class="conteudo">
-        <section class="conteudo-principal">
+
+        <section
+            class="conteudo-principal"
+            id="inicio"
+            aria-labelledby="titulo-principal"
+        >
+
             <div class="principal-escrito">
-                <h1 class="titulo">Ballet Bot</h1>
-                <h2 class="sub-titulo">Mantenha sua comunidade segura de um jeito facil</h2>
-                <button class="botao" value="Entrar" onclick="logar()">Me Adicione!</button>
+
+                <h1 class="titulo" id="titulo-principal">
+                    Balle Bot
+                </h1>
+
+                <p class="sub-titulo">
+                    Mantenha sua comunidade segura de um jeito fácil
+                </p>
+
+                <button
+                    class="botao"
+                    type="button"
+                    onclick="logar()"
+                >
+                    Me Adicione!
+                </button>
+
             </div>
-            <img class="img-principal" src="css/group-4.svg" alt="" imagem balle bot>
-        </section>
-        <section class="conteudo-segundario">
-            <h3 class="segundario-titulo">O que fazemos por voce?</h3>
-            <p class="segundario-paragrafo">1. Cria um <strong> sistema de verificação capcha </strong> para novos membros garantirem que não são robôs</p>
-            <p class="segundario-paragrafo">2. Possui um <strong>sistema de banimento automático</strong> para links suspeitos que forem enviados na comunidade</p>
-            <p class="segundario-paragrafo">3. <strong>Sistema de avisos e banimento manual</strong>, para pessoas administradoras utilizarem</p>
+
+            <img
+                class="img-principal"
+                src="css/group-4.svg"
+                alt="Ilustração do Balle Bot"
+            >
 
         </section>
+
+
+        <section
+            class="conteudo-segundario"
+            id="sobre"
+            aria-labelledby="titulo-beneficios"
+        >
+
+            <h2 class="segundario-titulo" id="titulo-beneficios">
+                O que fazemos por você?
+            </h2>
+
+            <p class="segundario-paragrafo">
+                1. Cria um
+                <strong>sistema de verificação captcha</strong>
+                para novos membros garantirem que não são robôs.
+            </p>
+
+            <p class="segundario-paragrafo">
+                2. Possui um
+                <strong>sistema de banimento automático</strong>
+                para links suspeitos que forem enviados na comunidade.
+            </p>
+
+            <p class="segundario-paragrafo">
+                3. Possui
+                <strong>sistema de avisos e banimento manual</strong>,
+                para pessoas administradoras utilizarem.
+            </p>
+
+        </section>
+
     </main>
+
+
+    <footer class="rodape">
+
+        <img
+            class="img-rodape"
+            src="css/BALLERINI.svg"
+            alt="Logo Ballerini"
+        >
+
+    </footer>
+
 
     <script>
         function logar() {
-
-            alert("agora somos amigos! ;)");
+            alert("Agora somos amigos! ;)");
         }
     </script>
 
-    <footer class="rodape">
-        <img class="img-rodape" src="css/BALLERINI.svg" alt="BALLERINE">
-    </footer>
 </body>
 
 </html>
+ 
+
+<p class="sub-titulo"
